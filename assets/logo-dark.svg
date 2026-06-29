@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <!-- Gold gradient matching the logo -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6914;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#C9A96E;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#E8C882;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A07830;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C9A96E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#E8C882;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B6914;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background: transparent (works on dark) -->
+
+  <!-- S Symbol - outer left sweep (top arc going right) -->
+  <path d="M 200 90
+    C 200 90, 240 88, 258 108
+    C 276 128, 272 152, 252 165
+    C 232 178, 200 180, 180 190
+    C 160 200, 145 215, 148 238
+    C 151 261, 170 278, 200 280
+    C 230 282, 255 268, 260 248"
+    fill="none"
+    stroke="url(#goldGrad)"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- S Symbol - inner right sweep (bottom arc going left) -->
+  <path d="M 200 280
+    C 200 280, 162 282, 144 262
+    C 126 242, 130 218, 150 205
+    C 170 192, 202 190, 222 180
+    C 242 170, 256 155, 253 132
+    C 250 109, 231 92, 200 90
+    C 169 88, 146 102, 142 122"
+    fill="none"
+    stroke="url(#goldGrad2)"
+    stroke-width="18"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- SPANDA text - white for dark background version -->
+  <text
+    x="200"
+    y="340"
+    text-anchor="middle"
+    font-family="'Georgia', 'Times New Roman', serif"
+    font-size="42"
+    font-weight="400"
+    letter-spacing="12"
+    fill="white"
+  >SPANDA</text>
+</svg>

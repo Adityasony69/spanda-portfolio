@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="SPANDA is an AI Creative Studio — cinematic commercials, product ads, UGC, brand films and AI-powered visual storytelling. India's premier AI video studio.">
+  <meta name="keywords"
+    content="AI video, cinematic commercials, product ads, UGC, AI creative studio, SPANDA, AI models, brand films">
+  <meta property="og:title" content="SPANDA — The Pulse of AI Cinema">
+  <meta property="og:description"
+    content="Premium AI-powered cinematic video production for brands that demand excellence.">
+  <meta property="og:type" content="website">
+  <title>SPANDA — The Pulse of AI Cinema</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- MOBILE NAV OVERLAY -->
+  <div class="mob-nav" id="mobNav">
+    <button class="mob-close" id="mobClose" aria-label="Close menu">✕</button>
+    <ul class="mob-links">
+      <li><a href="#work" onclick="closeMobNav()">Work</a></li>
+      <li><a href="#services" onclick="closeMobNav()">Services</a></li>
+      <li><a href="#process" onclick="closeMobNav()">Process</a></li>
+      <li><a href="#expertise" onclick="closeMobNav()">Expertise</a></li>
+      <li><a href="#about" onclick="closeMobNav()">About</a></li>
+      <li><a href="#contact" onclick="closeMobNav()">Contact</a></li>
+    </ul>
+    <a href="#contact" class="mob-cta" onclick="closeMobNav()">Get a Quote</a>
+  </div>
+
+  <!-- NAV -->
+  <nav id="mn">
+    <a href="#" class="nlogo">
+      <div class="nlogo-icon">
+        <img src="assets/logo.jpg" alt="SPANDA Logo" class="nav-logo-img">
+      </div>
+      <span class="nlogo-t">SPANDA</span>
+    </a>
+    <ul class="nlinks">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="#contact" class="ncta">Get a Quote</a>
+      <button class="nhb" id="hambBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+     HERO — Big Centered Motto
+═══════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-img" style="background-image:url('assets/hero_bg.png')"></div>
+    <canvas id="particles" class="particle-canvas"></canvas>
+    <div class="orb o1"></div>
+    <div class="orb o2"></div>
+    <div class="orb o3"></div>
+
+    <div class="hero-center">
+      <div class="hbadge rv">
+        <span class="hbdot"></span>
+        <span>AI Creative Studio · India</span>
+      </div>
+
+      <h1 class="hero-motto rv d1">
+        <span class="motto-line">We Don't Make</span>
+        <span class="motto-line hw-big">Videos.</span>
+        <span class="motto-line">We Craft</span>
+        <span class="motto-line hw-big">Experiences.</span>
+      </h1>
+
+      <p class="hero-sub rv d2">
+        AI-powered cinematic storytelling for brands that refuse to be ordinary.
+        <br>Every frame. Every second. Engineered for impact.
+      </p>
+
+      <div class="hero-acts rv d3">
+        <a href="#work" class="bp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="5,3 19,12 5,21" fill="white" />
+          </svg>
+          View Our Work
+        </a>
+        <a href="#contact" class="bs">Start a Project →</a>
+      </div>
+
+      <div class="hero-stats rv d4">
+        <div class="hstat"><span class="hstat-n">30+</span><span class="hstat-l">Projects</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span class="hstat-n">7</span><span class="hstat-l">Niches</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span class="hstat-n">48h</span><span class="hstat-l">Delivery</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span class="hstat-n">100%</span><span class="hstat-l">Satisfaction</span></div>
+      </div>
+    </div>
+
+    <div class="hscr">
+      <span>Scroll</span>
+      <div class="sline"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <div class="marquee-content" aria-hidden="true">
+        <span>AI Commercials</span><span class="dot">✦</span>
+        <span>Product Ads</span><span class="dot">✦</span>
+        <span>UGC Videos</span><span class="dot">✦</span>
+        <span>AI Models</span><span class="dot">✦</span>
+        <span>Fashion Films</span><span class="dot">✦</span>
+        <span>Jewellery Ads</span><span class="dot">✦</span>
+        <span>Movie Trailers</span><span class="dot">✦</span>
+        <span>Tech Content</span><span class="dot">✦</span>
+        <span>Brand Films</span><span class="dot">✦</span>
+        <span>AI Commercials</span><span class="dot">✦</span>
+        <span>Product Ads</span><span class="dot">✦</span>
+        <span>UGC Videos</span><span class="dot">✦</span>
+        <span>AI Models</span><span class="dot">✦</span>
+        <span>Fashion Films</span><span class="dot">✦</span>
+        <span>Jewellery Ads</span><span class="dot">✦</span>
+        <span>Movie Trailers</span><span class="dot">✦</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+     WORK — Sliding Portfolio Viewer
+═══════════════════════════════════════════ -->
+  <section id="work">
+    <div class="si">
+      <div class="sh">
+        <div>
+          <div class="slbl rv">Portfolio & Services</div>
+          <h2 class="stitle rv d1">7 Types of AI Video We Master</h2>
+          <p class="ssub rv d2">Every category crafted with specialized workflows, prompting strategies, and cinematic
+            precision. Click to explore the full story.</p>
+        </div>
+        <div class="filter-btns rv d2" id="filterBtns">
+          <button class="fbtn active" data-filter="all">All</button>
+          <button class="fbtn" data-filter="product">Product</button>
+          <button class="fbtn" data-filter="ugc">UGC</button>
+          <button class="fbtn" data-filter="model">AI Models</button>
+          <button class="fbtn" data-filter="fashion">Fashion</button>
+          <button class="fbtn" data-filter="jewellery">Jewellery</button>
+          <button class="fbtn" data-filter="movie">Movie</button>
+          <button class="fbtn" data-filter="tech">Tech</button>
+        </div>
+      </div>
+      <div class="wg" id="workGrid"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+     PORTFOLIO SLIDE PANEL
+═══════════════════════════════════════════ -->
+  <div class="slide-panel" id="slidePanel">
+    <div class="sp-overlay" id="spOverlay"></div>
+    <div class="sp-drawer" id="spDrawer">
+      <button class="sp-close" id="spClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+
+      <!-- VIDEO PLAYER -->
+      <div class="sp-video-wrap" id="spVideoWrap">
+        <video class="sp-video" id="spVideo" controls playsinline preload="none"></video>
+        <div class="sp-thumb" id="spThumb">
+          <img id="spThumbImg" src="" alt="">
+          <div class="sp-play-btn" id="spPlayBtn">
+            <svg viewBox="0 0 24 24">
+              <polygon points="5,3 19,12 5,21" fill="white" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTENT -->
+      <div class="sp-content">
+        <div class="sp-meta">
+          <span class="sp-cat" id="spCat"></span>
+          <span class="sp-dur" id="spDur"></span>
+        </div>
+        <h2 class="sp-title" id="spTitle"></h2>
+        <p class="sp-desc" id="spDesc"></p>
+
+        <!-- WORKFLOW TABS -->
+        <div class="sp-tabs">
+          <button class="sp-tab active" data-tab="workflow">Workflow</button>
+          <button class="sp-tab" data-tab="prompts">Prompting</button>
+          <button class="sp-tab" data-tab="tools">Tools Used</button>
+          <button class="sp-tab" data-tab="character">Character Stability</button>
+        </div>
+
+        <div class="sp-tab-content" id="spWorkflow">
+          <div class="workflow-steps" id="workflowSteps"></div>
+        </div>
+        <div class="sp-tab-content hidden" id="spPrompts">
+          <div class="prompt-blocks" id="promptBlocks"></div>
+        </div>
+        <div class="sp-tab-content hidden" id="spTools">
+          <div class="tools-grid" id="toolsGrid"></div>
+        </div>
+        <div class="sp-tab-content hidden" id="spCharacter">
+          <div class="char-info" id="charInfo"></div>
+        </div>
+
+        <!-- CTA -->
+        <div class="sp-cta-row">
+          <a href="#contact" class="bp sp-order-btn" id="spOrderBtn" onclick="closeSlidePanel()">Order Similar
+            Project</a>
+          <button class="bs sp-next" id="spNext">Next Project →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ═══════════════════════════════════════════
+     PROCESS
+═══════════════════════════════════════════ -->
+  <section id="process">
+    <div class="si">
+      <div class="slbl rv">How It Works</div>
+      <h2 class="stitle rv d1">Our Creative Process</h2>
+      <p class="ssub rv d2">From brief to breathtaking — our streamlined AI production pipeline.</p>
+      <div class="ptrack">
+        <div class="pstep act rv">
+          <div class="snode">01</div>
+          <div class="pstep-info">
+            <div class="sttl">Discovery Call</div>
+            <div class="stdsc">We understand your brand, goals, target audience, and creative vision in a focused
+              session.</div>
+          </div>
+        </div>
+        <div class="pstep rv d1">
+          <div class="snode">02</div>
+          <div class="pstep-info">
+            <div class="sttl">Concept & Script</div>
+            <div class="stdsc">Tailored concept, storyboard, script, and visual direction crafted for your approval.
+            </div>
+          </div>
+        </div>
+        <div class="pstep rv d2">
+          <div class="snode">03</div>
+          <div class="pstep-info">
+            <div class="sttl">AI Prompting</div>
+            <div class="stdsc">Advanced multi-model prompting strategy for consistent, on-brand visual generation.</div>
+          </div>
+        </div>
+        <div class="pstep rv d3">
+          <div class="snode">04</div>
+          <div class="pstep-info">
+            <div class="sttl">Production</div>
+            <div class="stdsc">AI video generation, compositing, motion design and sound production in parallel.</div>
+          </div>
+        </div>
+        <div class="pstep rv d4">
+          <div class="snode">05</div>
+          <div class="pstep-info">
+            <div class="sttl">Review & Revise</div>
+            <div class="stdsc">Two full revision rounds. We iterate until every frame meets your vision exactly.</div>
+          </div>
+        </div>
+        <div class="pstep rv d5">
+          <div class="snode">06</div>
+          <div class="pstep-info">
+            <div class="sttl">Delivery</div>
+            <div class="stdsc">Final 4K files in all formats — broadcast, social, web — ready to publish.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ═══════════════════════════════════════════
+     EXPERTISE
+═══════════════════════════════════════════ -->
+  <section id="expertise">
+    <div class="si">
+      <div class="slbl rv">Skills & Expertise</div>
+      <h2 class="stitle rv d1">What We're Built On</h2>
+      <p class="ssub rv d2">A rare combination of creative mastery and technical AI depth — all under one roof.</p>
+      <div class="expertise-grid">
+        <div class="exp-card rv">
+          <div class="exp-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="20" stroke="url(#g1)" stroke-width="1.5" />
+              <path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="url(#g1)" stroke-width="2"
+                stroke-linecap="round" />
+              <circle cx="24" cy="24" r="4" fill="url(#g1)" />
+              <defs>
+                <linearGradient id="g1" x1="4" y1="4" x2="44" y2="44">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#56D6C2" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="exp-title">AI Generalist</h3>
+          <p class="exp-desc">Deep expertise across the full AI ecosystem — from image generation to video synthesis,
+            audio AI, and automation pipelines.</p>
+          <div class="exp-tags"><span>Multi-Model</span><span>Pipeline Design</span><span>R&D</span></div>
+        </div>
+
+        <div class="exp-card rv d1">
+          <div class="exp-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="8" y="8" width="32" height="32" rx="6" stroke="url(#g2)" stroke-width="1.5" />
+              <path d="M16 20h16M16 24h12M16 28h8" stroke="url(#g2)" stroke-width="2" stroke-linecap="round" />
+              <defs>
+                <linearGradient id="g2" x1="8" y1="8" x2="40" y2="40">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#56D6C2" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="exp-title">Creative Director</h3>
+          <p class="exp-desc">Vision-to-execution leadership — art direction, visual language, brand storytelling, and
+            cinematic narrative design.</p>
+          <div class="exp-tags"><span>Art Direction</span><span>Brand Voice</span><span>Visual Identity</span></div>
+        </div>
+
+        <div class="exp-card rv d2">
+          <div class="exp-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M12 16l8-8 8 8M12 32l8 8 8-8" stroke="url(#g3)" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <rect x="18" y="18" width="12" height="12" rx="2" fill="url(#g3)" opacity=".3" />
+              <defs>
+                <linearGradient id="g3" x1="12" y1="8" x2="36" y2="40">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#C9A96E" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="exp-title">Prompt Engineer</h3>
+          <p class="exp-desc">Advanced multi-model prompting — consistent character generation, style locking, negative
+            prompting, and iterative refinement.</p>
+          <div class="exp-tags"><span>Sora</span><span>Kling AI</span><span>Midjourney</span><span>Runway</span></div>
+        </div>
+
+        <div class="exp-card rv d3">
+          <div class="exp-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M8 36V20l16-12 16 12v16" stroke="url(#g4)" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M20 36V26h8v10" stroke="url(#g4)" stroke-width="1.5" stroke-linecap="round" />
+              <defs>
+                <linearGradient id="g4" x1="8" y1="8" x2="40" y2="40">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#56D6C2" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="exp-title">AI Video Creator & Production</h3>
+          <p class="exp-desc">End-to-end AI video production — generation, compositing, color grading, sound design, and
+            final delivery in 4K.</p>
+          <div class="exp-tags"><span>Video Gen</span><span>Color Grading</span><span>Sound Design</span><span>4K</span>
+          </div>
+        </div>
+
+        <div class="exp-card rv d4">
+          <div class="exp-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M10 38L24 10l14 28" stroke="url(#g5)" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M15 30h18" stroke="url(#g5)" stroke-width="1.5" stroke-linecap="round" />
+              <defs>
+                <linearGradient id="g5" x1="10" y1="10" x2="38" y2="38">
+                  <stop stop-color="#C9A96E" />
+                  <stop offset="1" stop-color="#56D6C2" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="exp-title">Visual Storytelling</h3>
+          <p class="exp-desc">Narrative-driven visual design — pacing, emotion arc, scene composition, and cinematic
+            language that moves audiences.</p>
+          <div class="exp-tags"><span>Narrative Design</span><span>Cinematography</span><span>Emotion Arc</span></div>
+        </div>
+
+        <div class="exp-card rv d5">
+          <div class="exp-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="8" y="24" width="8" height="16" rx="2" fill="url(#g6)" opacity=".4" />
+              <rect x="20" y="16" width="8" height="24" rx="2" fill="url(#g6)" opacity=".6" />
+              <rect x="32" y="8" width="8" height="32" rx="2" fill="url(#g6)" />
+              <defs>
+                <linearGradient id="g6" x1="8" y1="8" x2="40" y2="40">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#56D6C2" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="exp-title">AI Automation</h3>
+          <p class="exp-desc">Custom AI workflows and automation pipelines for content at scale — batch generation,
+            auto-editing, and distribution automation.</p>
+          <div class="exp-tags"><span>n8n</span><span>Make</span><span>APIs</span><span>Batch Processing</span></div>
+        </div>
+
+        <div class="exp-card rv d6">
+          <div class="exp-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect x="6" y="10" width="36" height="28" rx="4" stroke="url(#g7)" stroke-width="1.5" />
+              <path d="M14 22h4M22 22h8M14 28h12" stroke="url(#g7)" stroke-width="2" stroke-linecap="round" />
+              <circle cx="36" cy="22" r="3" fill="url(#g7)" opacity=".8" />
+              <defs>
+                <linearGradient id="g7" x1="6" y1="10" x2="42" y2="38">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#56D6C2" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="exp-title">Website Designing</h3>
+          <p class="exp-desc">Premium web design and development — from marketing landing pages to full brand websites
+            with cutting-edge UI/UX.</p>
+          <div class="exp-tags"><span>UI/UX</span><span>Web Dev</span><span>Landing Pages</span></div>
+        </div>
+
+        <div class="exp-card rv d1">
+          <div class="exp-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <path d="M24 8l4 8h8l-6.5 5 2.5 8L24 24l-8 5 2.5-8L12 16h8l4-8z" stroke="url(#g8)" stroke-width="1.5"
+                stroke-linejoin="round" />
+              <circle cx="24" cy="38" r="4" fill="url(#g8)" opacity=".5" />
+              <defs>
+                <linearGradient id="g8" x1="12" y1="8" x2="36" y2="42">
+                  <stop stop-color="#C9A96E" />
+                  <stop offset="1" stop-color="#7C8CFF" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="exp-title">Brand Strategist</h3>
+          <p class="exp-desc">Strategic brand building — positioning, visual identity, content calendar, platform
+            strategy and competitive differentiation.</p>
+          <div class="exp-tags"><span>Positioning</span><span>Identity</span><span>Content Strategy</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+     ABOUT
+═══════════════════════════════════════════ -->
+  <section id="about">
+    <div class="si">
+      <div class="ag">
+        <div class="aiw rvl">
+          <div class="about-visual">
+            <div class="av-logo-wrap">
+              <img src="assets/logo.jpg" alt="SPANDA Logo" class="av-logo-img">
+              <div class="av-glow-ring"></div>
+              <div class="av-glow-ring2"></div>
+            </div>
+            <div class="av-stats">
+              <div class="avstat">
+                <span class="avstat-n" data-target="30">0</span><span>+</span>
+                <span class="avstat-l">Projects</span>
+              </div>
+              <div class="avstat">
+                <span class="avstat-n" data-target="100">0</span><span>%</span>
+                <span class="avstat-l">Satisfaction</span>
+              </div>
+              <div class="avstat">
+                <span class="avstat-n" data-target="7">0</span><span></span>
+                <span class="avstat-l">Niches</span>
+              </div>
+            </div>
+          </div>
+          <div class="atag">
+            <div class="tav">A</div>
+            <div>
+              <div class="tname">Aditya Sony</div>
+              <div class="trole">Founder · AI Content Creator · 20</div>
+            </div>
+            <div class="online-dot"></div>
+          </div>
+        </div>
+        <div class="acont rvr d1">
+          <div class="slbl">About the Founder</div>
+          <h2 class="stitle">Aditya Sony<br><span class="hw">Solan, Himachal Pradesh</span></h2>
+          <div class="about-bio-grid">
+            <div class="bio-item">
+              <span class="bio-label">Age</span>
+              <span class="bio-val">20 Years</span>
+            </div>
+            <div class="bio-item">
+              <span class="bio-label">Education</span>
+              <span class="bio-val">BCA CS Major</span>
+            </div>
+            <div class="bio-item">
+              <span class="bio-label">Location</span>
+              <span class="bio-val">Solan, Himachal Pradesh, India</span>
+            </div>
+            <div class="bio-item">
+              <span class="bio-label">Occupation</span>
+              <span class="bio-val">AI Content Creator · Automation Specialist · AI Generalist</span>
+            </div>
+          </div>
+          <p class="abio">I'm a 20-year-old Computer Science graduate from Solan, Himachal Pradesh — passionate about
+            pushing the boundaries of what AI can create. I founded SPANDA to bring cinematic-quality AI video
+            production to brands across India and globally.</p>
+          <p class="abio">With deep knowledge in computing, software development and AI systems, I combine technical
+            precision with creative vision. Every project is built on solid engineering foundations — not just prompts.
+          </p>
+          <div class="skw">
+            <span class="sp">Seedance</span>
+            <span class="sp">Kling 3.0</span>
+            <span class="sp">Ideogram 4.0</span>
+            <span class="sp">ChatGPT</span>
+            <span class="sp">ElevenLabs</span>
+            <span class="sp">DaVinci Resolve</span>
+            <span class="sp">After Effects</span>
+            <span class="sp">Python</span>
+            <span class="sp">n8n Automation</span>
+          </div>
+          <div class="about-ctas">
+            <a href="#contact" class="bp">Work With Me</a>
+            <a href="#work" class="bs">See My Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+     WHY SPANDA
+═══════════════════════════════════════════ -->
+  <section id="why">
+    <div class="si">
+      <div class="slbl rv">Why Choose Us</div>
+      <h2 class="stitle rv d1">The SPANDA Advantage</h2>
+      <p class="ssub rv d2">We don't just make videos — we engineer visual experiences that drive results.</p>
+      <div class="wh">
+        <div class="wc rv">
+          <div class="wc-icon-wrap">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M16 4l2 6h6l-4.9 3.6L21 20l-5-3.6L11 20l1.9-6.4L8 10h6l2-6z" fill="url(#wy1)" />
+              <defs>
+                <linearGradient id="wy1" x1="8" y1="4" x2="24" y2="20">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#56D6C2" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="wtitle">Cinema-Grade Quality</h3>
+          <p class="wdesc">Every frame passes rigorous quality checks. We deliver nothing less than breathtaking —
+            guaranteed.</p>
+        </div>
+        <div class="wc rv d1">
+          <div class="wc-icon-wrap">
+            <svg viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="12" stroke="url(#wy2)" stroke-width="1.5" />
+              <path d="M16 9v7l4 4" stroke="url(#wy2)" stroke-width="2" stroke-linecap="round" />
+              <defs>
+                <linearGradient id="wy2" x1="4" y1="4" x2="28" y2="28">
+                  <stop stop-color="#C9A96E" />
+                  <stop offset="1" stop-color="#56D6C2" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="wtitle">48-Hour Delivery</h3>
+          <p class="wdesc">AI-accelerated production means you never miss a campaign window. Most projects delivered in
+            48–72 hours.</p>
+        </div>
+        <div class="wc rv d2">
+          <div class="wc-icon-wrap">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M8 20l8-16 8 16" stroke="url(#wy3)" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M11 15h10" stroke="url(#wy3)" stroke-width="2" stroke-linecap="round" />
+              <defs>
+                <linearGradient id="wy3" x1="8" y1="4" x2="24" y2="28">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#C9A96E" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="wtitle">80% Cost Reduction</h3>
+          <p class="wdesc">Traditional production costs lakhs. We deliver the same quality at a fraction — without
+            compromise.</p>
+        </div>
+        <div class="wc rv d3">
+          <div class="wc-icon-wrap">
+            <svg viewBox="0 0 32 32" fill="none">
+              <rect x="6" y="6" width="20" height="20" rx="4" stroke="url(#wy4)" stroke-width="1.5" />
+              <path d="M11 16l3 3 7-7" stroke="url(#wy4)" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <defs>
+                <linearGradient id="wy4" x1="6" y1="6" x2="26" y2="26">
+                  <stop stop-color="#56D6C2" />
+                  <stop offset="1" stop-color="#7C8CFF" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="wtitle">Strategy-First</h3>
+          <p class="wdesc">Every creative decision rooted in conversion psychology, platform strategy and brand
+            positioning.</p>
+        </div>
+        <div class="wc rv d4">
+          <div class="wc-icon-wrap">
+            <svg viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="10" r="5" stroke="url(#wy5)" stroke-width="1.5" />
+              <path d="M6 26c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="url(#wy5)" stroke-width="1.5"
+                stroke-linecap="round" />
+              <defs>
+                <linearGradient id="wy5" x1="6" y1="5" x2="26" y2="26">
+                  <stop stop-color="#7C8CFF" />
+                  <stop offset="1" stop-color="#C9A96E" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="wtitle">Character Stability</h3>
+          <p class="wdesc">Proprietary prompting techniques for consistent AI characters across all scenes, episodes and
+            formats.</p>
+        </div>
+        <div class="wc rv d5">
+          <div class="wc-icon-wrap">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M6 16l4 4 16-16M6 26h20" stroke="url(#wy6)" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <defs>
+                <linearGradient id="wy6" x1="6" y1="4" x2="26" y2="26">
+                  <stop stop-color="#56D6C2" />
+                  <stop offset="1" stop-color="#C9A96E" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="wtitle">Dedicated Support</h3>
+          <p class="wdesc">Direct WhatsApp and Discord access. No agency middlemen. You talk directly to the creator.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+     PRICING
+═══════════════════════════════════════════ -->
+  <section id="pricing">
+    <div class="si">
+      <div class="slbl rv">Transparent Pricing</div>
+      <h2 class="stitle rv d1">Simple, Honest Pricing</h2>
+      <p class="ssub rv d2">All prices are negotiable. Got a specific requirement? Reach out and we'll figure something
+        out.</p>
+
+      <!-- CUSTOM CHARACTER PACKAGES -->
+      <div class="pricing-group rv d1">
+        <div class="pricing-group-label">AI Influencer / Custom Character Packages</div>
+        <div class="pricing-grid">
+
+          <div class="price-card">
+            <div class="price-region">India</div>
+            <div class="price-tier-name">Basic</div>
+            <div class="price-amount">
+              <span class="price-currency">Rs.</span>
+              <span class="price-num">15,000 – 25,000</span>
+            </div>
+            <ul class="price-features">
+              <li>Custom AI character design</li>
+              <li>AI voice clone</li>
+              <li>5 short videos</li>
+              <li>Full HD delivery</li>
+              <li>48h turnaround</li>
+            </ul>
+            <a href="#contact" class="bs price-cta">Get Started</a>
+          </div>
+
+          <div class="price-card featured">
+            <div class="price-badge">Most Popular</div>
+            <div class="price-region">India</div>
+            <div class="price-tier-name">Standard</div>
+            <div class="price-amount">
+              <span class="price-currency">Rs.</span>
+              <span class="price-num">30,000 – 60,000</span>
+            </div>
+            <ul class="price-features">
+              <li>Full custom AI influencer</li>
+              <li>20 – 30 videos</li>
+              <li>Complete branding package</li>
+              <li>Character consistency system</li>
+              <li>Multi-platform formats</li>
+            </ul>
+            <a href="#contact" class="bp price-cta">Get Started</a>
+          </div>
+
+          <div class="price-card">
+            <div class="price-region">Worldwide</div>
+            <div class="price-tier-name">Basic</div>
+            <div class="price-amount">
+              <span class="price-currency">$</span>
+              <span class="price-num">150 – 250</span>
+            </div>
+            <ul class="price-features">
+              <li>Custom AI character design</li>
+              <li>AI voice clone</li>
+              <li>5 short videos</li>
+              <li>Full HD delivery</li>
+              <li>48h turnaround</li>
+            </ul>
+            <a href="#contact" class="bs price-cta">Get Started</a>
+          </div>
+
+          <div class="price-card featured">
+            <div class="price-badge">Best Value</div>
+            <div class="price-region">Worldwide</div>
+            <div class="price-tier-name">Standard</div>
+            <div class="price-amount">
+              <span class="price-currency">$</span>
+              <span class="price-num">300 – 500</span>
+            </div>
+            <ul class="price-features">
+              <li>Full custom AI influencer</li>
+              <li>20 – 30 videos</li>
+              <li>Complete branding package</li>
+              <li>Character consistency system</li>
+              <li>Multi-platform formats</li>
+            </ul>
+            <a href="#contact" class="bp price-cta">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- INDIVIDUAL VIDEO PACKAGES -->
+      <div class="pricing-group rv d2">
+        <div class="pricing-group-label">Individual Niche Videos — Seedance / Kling 3.0 · Full HD · 13 sec</div>
+        <div class="pricing-row">
+          <div class="price-row-card">
+            <span class="prc-qty">5 Videos</span>
+            <span class="prc-price">$10</span>
+            <span class="prc-note">$2 per video</span>
+          </div>
+          <div class="price-row-card">
+            <span class="prc-qty">10 Videos</span>
+            <span class="prc-price">$15</span>
+            <span class="prc-note">$1.50 per video</span>
+          </div>
+          <div class="price-row-card featured-row">
+            <span class="prc-qty">20 Videos</span>
+            <span class="prc-price">$28</span>
+            <span class="prc-note">$1.40 per video</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BULK PACKAGES -->
+      <div class="pricing-group rv d3">
+        <div class="pricing-group-label">Bulk Niche Video Packages</div>
+        <div class="pricing-row">
+          <div class="price-row-card">
+            <span class="prc-qty">200 Videos</span>
+            <span class="prc-price">$120</span>
+            <span class="prc-note">$0.60 per video</span>
+          </div>
+          <div class="price-row-card featured-row">
+            <span class="prc-qty">500 Videos</span>
+            <span class="prc-price">$240</span>
+            <span class="prc-note">$0.48 per video</span>
+          </div>
+          <div class="price-row-card">
+            <span class="prc-qty">1000 Videos</span>
+            <span class="prc-price">$350</span>
+            <span class="prc-note">$0.35 per video</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="price-note rv d4">All prices are negotiable — contact to discuss your specific requirements and get a
+        custom quote.</div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+     CONTACT
+═══════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="si">
+      <div class="ctai">
+        <div class="slbl rv" style="justify-content:center">Get In Touch</div>
+        <h2 class="stitle rv d1" style="text-align:center">Ready to Create<br><span class="hw">Something
+            Extraordinary?</span></h2>
+        <p class="ctasub rv d2">Tell us about your project and we'll craft a custom proposal within 24 hours. No
+          commitment required.</p>
+
+        <form class="contact-form rv d3" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Your Name *</label>
+              <input type="text" id="fname" name="name" placeholder="e.g. Rahul Sharma" required>
+              <span class="err" id="errName"></span>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address *</label>
+              <input type="email" id="femail" name="email" placeholder="you@brand.com" required>
+              <span class="err" id="errEmail"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fservice">Service Required *</label>
+              <select id="fservice" name="service" required>
+                <option value="">Select a service...</option>
+                <option value="product">Product / Skincare Ad</option>
+                <option value="ugc">UGC Video</option>
+                <option value="model">AI Models</option>
+                <option value="fashion">Fashion Brand Film</option>
+                <option value="jewellery">Jewellery Commercial</option>
+                <option value="movie">Movie Trailer</option>
+                <option value="tech">Tech Education Series</option>
+                <option value="website">Website Design</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+              <span class="err" id="errService"></span>
+            </div>
+            <div class="form-group">
+              <label for="fbudget">Approximate Budget</label>
+              <select id="fbudget" name="budget">
+                <option value="">Select budget range...</option>
+                <option value="under-15k">Under ₹15,000</option>
+                <option value="15k-35k">₹15,000 – ₹35,000</option>
+                <option value="35k-75k">₹35,000 – ₹75,000</option>
+                <option value="75k-plus">₹75,000+</option>
+                <option value="custom">Enterprise / Custom</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group full">
+            <label for="fmessage">Project Brief *</label>
+            <textarea id="fmessage" name="message" rows="4"
+              placeholder="Tell us about your brand, what you need, and any creative references..." required></textarea>
+            <span class="err" id="errMessage"></span>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="bp form-submit-btn" id="submitBtn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <line x1="22" y1="2" x2="11" y2="13" />
+                <polygon points="22 2 15 22 11 13 2 9 22 2" />
+              </svg>
+              Send Project Brief
+            </button>
+            <p class="form-note">We respond within 24 hours. Your info is 100% private.</p>
+          </div>
+          <div class="form-success" id="formSuccess">
+            <div class="success-icon">✓</div>
+            <h3>Message Sent!</h3>
+            <p>We'll review your brief and get back to you within 24 hours.</p>
+          </div>
+        </form>
+
+        <div class="direct-contact rv d4">
+          <p>Or reach us directly:</p>
+          <div class="ctab">
+            <a href="mailto:adityasony2ii@gmail.com" class="bc be" id="ctaEmail">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              adityasony2ii@gmail.com
+            </a>
+            <a href="https://wa.me/917018651029?text=Hi%20SPANDA!%20I'm%20interested%20in%20a%20video%20project."
+              target="_blank" rel="noopener noreferrer" class="bc bw" id="ctaWhatsapp">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+              +91 7018651029
+            </a>
+            <a href="https://discord.gg/XwDjxV8u" target="_blank" rel="noopener noreferrer" class="bc bd"
+              id="ctaDiscord">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                <path
+                  d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057.102 18.08.114 18.1.132 18.11a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+              </svg>
+              Discord Community
+            </a>
+            <a href="https://www.instagram.com/adityasony6969?utm_source=qr&igsh=aDhjbTliZnB0dW41" target="_blank"
+              rel="noopener noreferrer" class="bc bi" id="ctaInstagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+              </svg>
+              @adityasony6969
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="fi">
+      <div class="fb">
+        <div class="flogo">
+          <div class="flogo-icon">
+            <img src="assets/logo.jpg" alt="SPANDA" class="footer-logo-img">
+          </div>
+          <span class="flt">SPANDA</span>
+        </div>
+        <span class="ftag">The Pulse of AI Cinema</span>
+        <span class="fcp">© 2026 SPANDA Studio · Aditya Sony · All rights reserved.</span>
+      </div>
+      <div class="fnav">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="fsc">
+        <a href="https://www.instagram.com/adityasony6969?utm_source=qr&igsh=aDhjbTliZnB0dW41" target="_blank"
+          rel="noopener noreferrer" class="sl2" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+          </svg>
+        </a>
+        <a href="https://wa.me/917018651029" target="_blank" rel="noopener noreferrer" class="sl2"
+          aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+        </a>
+        <a href="https://discord.gg/XwDjxV8u" target="_blank" rel="noopener noreferrer" class="sl2"
+          aria-label="Discord">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15">
+            <path
+              d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057.102 18.08.114 18.1.132 18.11a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+          </svg>
+        </a>
+        <a href="mailto:adityasony2ii@gmail.com" class="sl2" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
