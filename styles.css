@@ -2775,8 +2775,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 100px 16px 40px;
-    height: auto;
-    min-height: auto;
+    min-height: 100vh;
     gap: 24px;
     align-items: center;
     text-align: center;
