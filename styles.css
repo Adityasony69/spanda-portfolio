@@ -168,14 +168,19 @@ img, video {
 
 .mob-close {
   position: absolute;
-  top: 22px;
-  right: 24px;
+  top: 16px;
+  right: 16px;
   background: none;
   border: none;
   color: var(--muted);
   font-size: 1.4rem;
   cursor: pointer;
   transition: color 0.2s;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mob-close:hover {
@@ -337,7 +342,11 @@ nav.sc {
   cursor: pointer;
   background: none;
   border: none;
-  padding: 4px;
+  padding: 10px;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
 }
 
 .nhb span {
@@ -745,6 +754,8 @@ section {
   align-items: center;
   gap: 8px;
   font-family: inherit;
+  min-height: 44px;
+  justify-content: center;
 }
 
 .bp:hover {
@@ -773,6 +784,8 @@ section {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  min-height: 44px;
+  justify-content: center;
 }
 
 .bs:hover {
@@ -801,6 +814,7 @@ section {
   cursor: pointer;
   transition: all 0.25s;
   font-family: inherit;
+  min-height: 44px;
 }
 
 .fbtn:hover {
@@ -2515,8 +2529,8 @@ footer {
 }
 
 .sl2 {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   background: var(--card);
   border: 1px solid var(--border);
@@ -2665,7 +2679,7 @@ footer {
   }
 
   section {
-    padding: 80px 22px
+    padding: 80px 16px
   }
 
   .ag {
@@ -2721,11 +2735,11 @@ footer {
   }
 
   .sp-drawer {
-    width: 100vw
+    width: 100%
   }
 }
 
-@media(max-width:600px) {
+@media(max-width:767px) {
 
   .wg,
   .services-grid,
@@ -2830,6 +2844,48 @@ footer {
     display: none;
   }
   #particles, .orb { 
-    display: none; 
+    display: none !important; 
+  }
+}
+
+/* ── PRICING MOBILE FIX ─────────────────────────── */
+@media (max-width: 767px) {
+  .pricing-grid,
+  .pricing-row {
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .price-card,
+  .price-row-card {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .price-features li {
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  .price-cta {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

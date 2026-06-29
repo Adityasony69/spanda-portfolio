@@ -237,6 +237,10 @@ let currentFilter = "all";
 
   function init() { resize(); particles = Array.from({ length: 80 }, makeP); }
   function draw() {
+    if (window.innerWidth <= 767) {
+      requestAnimationFrame(draw);
+      return;
+    }
     ctx.clearRect(0, 0, W, H);
     particles.forEach(p => {
       ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
