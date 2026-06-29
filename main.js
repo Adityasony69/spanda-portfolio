@@ -50,9 +50,9 @@ const projects = [
       { title: "Platform Formatting", desc: "Delivered 9:16 for TikTok/Reels, 1:1 for Instagram feed, 4:5 for Meta Feed — all in one production run." }
     ],
     prompts: [
-      { label: "UGC Character (Persona 1)", text: "young Indian woman, 28 years old, gym fit, casual home setting, holding protein shake, phone selfie perspective, natural morning light, candid expression, real skin texture" },
+      { label: "UGC Character (Persona 1)", text: "young woman, 28 years old, gym fit, casual home setting, holding protein shake, phone selfie perspective, natural morning light, candid expression, real skin texture" },
       { label: "Handheld Camera Motion", text: "Add natural handheld camera motion: slight shake, zoom drift, slight rotation — match authentic phone recording style" },
-      { label: "Background (Kitchen)", text: "Indian home kitchen, morning light, slightly messy countertop, authentic lived-in space, warm tones, no studio lighting" }
+      { label: "Background (Kitchen)", text: "home kitchen, morning light, slightly messy countertop, authentic lived-in space, warm tones, no studio lighting" }
     ],
     tools: ["Midjourney v6", "Runway Gen-3 Alpha", "ElevenLabs", "CapCut", "Premiere Pro", "Meta Ad Library"],
     character: {
@@ -64,12 +64,12 @@ const projects = [
     id: 3,
     category: "model",
     name: "AI Models",
-    desc: "A 10-second AI model campaign showcase for a fashion brand — replacing traditional photoshoots with photorealistic AI models in curated environments. Saved ₹8 lakhs in production costs.",
+    desc: "A 10-second AI model campaign showcase for a fashion brand — replacing traditional photoshoots with photorealistic AI models in curated environments. Saved $10,000 in production costs.",
     thumb: "",
     video: "assets/videos/model.mp4#t=0.5",
     duration: "10 sec",
     workflow: [
-      { title: "Model Design Brief", desc: "Defined 2 AI models: Model A (South Asian female, 24, editorial look) and Model B (North Indian male, 28, athleisure). Created detailed character sheets." },
+      { title: "Model Design Brief", desc: "Defined 2 AI models: Model A (South Asian female, 24, editorial look) and Model B (South Asian male, 28, athleisure). Created detailed character sheets." },
       { title: "Character Base Generation", desc: "Used Midjourney v6 with --cref and seed locking to establish consistent faces. 50+ iterations per model to get photorealistic, distinct features that hold across poses." },
       { title: "Scene & Wardrobe Placement", desc: "Generated models wearing actual brand products (digitally composited via Photoshop generative fill) in AI-generated lifestyle environments." },
       { title: "Motion & Animation", desc: "Used Runway Gen-3 to animate still model images — walking, turning, product interaction. Applied smooth interpolation for natural movement." },
@@ -77,7 +77,7 @@ const projects = [
       { title: "Multi-Platform Delivery", desc: "Delivered: Instagram carousel (square), Reels (9:16), website hero (16:9), print-ready stills (A3, 300dpi)." }
     ],
     prompts: [
-      { label: "Model Base (Female)", text: "South Asian female model, 24 years old, defined cheekbones, editorial eyes, natural makeup, confident expression, fashion photography, Vogue India quality, photorealistic, --cref [ref] --cw 80" },
+      { label: "Model Base (Female)", text: "South Asian female model, 24 years old, defined cheekbones, editorial eyes, natural makeup, confident expression, fashion photography, Vogue quality, photorealistic, --cref [ref] --cw 80" },
       { label: "Motion Prompt (Walking)", text: "Model walking confidently on rooftop, slow motion, cinematic camera pan, fashion week aesthetic, golden hour, designer outfit, photorealistic video" },
       { label: "Magnific AI Enhancement", text: "Ultra-HD face enhancement, preserve skin pores, enhance eye detail, maintain expression authenticity, 4x upscale" }
     ],
@@ -104,7 +104,7 @@ const projects = [
       { title: "Original Composition", desc: "Suno AI generated a custom orchestral score with folk fusion elements, then ElevenLabs added ambient sound design layer (wind, water, fabric)." }
     ],
     prompts: [
-      { label: "Forest Environment", text: "ancient Indian forest, morning mist, dappled light through bamboo, organic textures, cinematic wide shot, emerald green palette, environmental photography quality" },
+      { label: "Forest Environment", text: "ancient forest, morning mist, dappled light through bamboo, organic textures, cinematic wide shot, emerald green palette, environmental photography quality" },
       { label: "Fabric Flow", text: "flowing silk saree in ocean breeze, slow motion, fabric texture ultra-detailed, teal and white, against coastal cliff backdrop, high fashion editorial" },
       { label: "Character + Environment", text: "South Asian female model in sustainable linen outfit, standing in Himalayan meadow, natural wind movement, sunrise golden hour, Vogue editorial, cinematic, --cref [char-ref] --cw 75" }
     ],
@@ -185,7 +185,7 @@ const projects = [
       { title: "Voice & Editing", desc: "Aryan's voice cloned via ElevenLabs — consistent across all 12 episodes. Episodes assembled in Premiere Pro with auto-captions, lower thirds and chapter markers for YouTube SEO." }
     ],
     prompts: [
-      { label: "Character 'Aryan' — Base Prompt", text: "Indian male tech educator named Aryan, 32 years old, sharp jawline, dark brown eyes, clean-cut black hair, confident smile, wearing navy blue minimal tshirt, professional but approachable, photorealistic, --seed 847291" },
+      { label: "Character 'Aryan' — Base Prompt", text: "Male tech educator named Aryan, 32 years old, sharp jawline, dark brown eyes, clean-cut black hair, confident smile, wearing navy blue minimal tshirt, professional but approachable, photorealistic, --seed 847291" },
       { label: "Holographic Studio Set", text: "futuristic dark studio, floating holographic screens with code, teal and blue neon glow, dark grey floor, cinematic lighting, tech educational setting, consistent set design, no clutter" },
       { label: "Teaching Gesture", text: "Aryan explaining concept, hand gesture pointing to floating holographic screen, dynamic pose, engaged expression, same studio background, --cref [aryan-ref] --cw 90 --seed 847291" }
     ],
