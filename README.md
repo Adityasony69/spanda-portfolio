@@ -58,7 +58,7 @@ Key CSS variables in `styles.css`:
 
 ## 📱 Opening the Website
 
-Simply open `index.html` in any modern browser. No build step required.
+Simply open `https://spanda-portfolio.vercel.app/` in any modern browser. No build step required.
 
 For live server (recommended):
 ```bash
